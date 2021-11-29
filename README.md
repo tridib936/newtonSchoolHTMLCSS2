@@ -1,2 +1,1 @@
-# newtonSchoolHTMLCSS2
-A html-css project to make a small quiz.
+## This is a html-css project to develop and design a small JavaScript quiz.
