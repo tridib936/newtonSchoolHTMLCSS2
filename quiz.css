@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike+Angular&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fcddc7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+body h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.75rem;
+    position:absolute;
+    color: #050505;
+    text-align: center;
+    margin : 0;
+    padding : 0 0 485px 0;
+}
+
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    overflow: hidden;
+    width: 800px;
+    max-width: 100%;
+    position: relative;
+    top : 53px;
+}
+
+.quiz-header {
+    padding: 2rem;
+}
+
+h2 {
+    padding: 0 0 20px 0;
+    text-align: center;
+    margin: 0;
+    font-size: 1.80rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.35rem;
+    margin: 1rem 0;
+    font-weight: bold;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    background-color: #0e631f;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1.3rem;
+}
+
+button:hover {
+    background-color: #1a4a32;
+}
+
+button:focus {
+    background-color: #0e631f;
+    outline: none;
+}
